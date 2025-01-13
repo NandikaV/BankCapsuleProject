@@ -18,6 +18,7 @@
     <div class="form-container">
         <h2>Register</h2>
         <form method="POST" action="registration.jsp">
+            <div class = "form-box">
             <label for="fullName">Full Name</label>
             <input type="text" name="fullName" id="fullName" placeholder="Enter your full name" required>
 
@@ -53,6 +54,7 @@
             <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm your password" required>
 
             <button type="submit">Register</button>
+        </div>
         </form>
 
         <div class="register">
