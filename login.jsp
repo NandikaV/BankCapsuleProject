@@ -17,7 +17,8 @@
     </div>
     <div class="form-container">
         <h2>Login</h2>
-        <form method="POST" action="login.jsp">
+        <form id ="loginForm" method="POST" action="login.jsp">
+            <div class = "form-box">
             <label for="username">Username</label>
             <input type="text" name="username" id="username" placeholder="Enter your username" required>
 
@@ -25,6 +26,7 @@
             <input type="password" name="password" id="password" placeholder="Enter your password" required>
 
             <button type="submit">Login</button>
+        </div>
         </form>
 
         <div class="register">
